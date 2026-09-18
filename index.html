@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Pets🐾</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="cadastro">
+        <h1>Cadastre seu Pet🐾</h1>
+        <input type="text" id="tutor" placeholder="Insira o nome do tutor">
+        <input type="text" id="pet" placeholder="Insira o nome do pet">
+        <input type="text" id="raca" placeholder="Insira a raça do pet">
+
+        <select id="genero">
+            <option> Selecione o gênero do pet</option>
+            <option>Macho</option>
+            <option>Fêmea</option>
+        </select>
+        
+        <input type="number" step="0.01" id="peso" placeholder="Insira o peso do pet">
+        <input type="number" id="idade" placeholder="Insira a idade do pet">
+
+        <button id="btn">Enviar</button>
+    </div>
+
+    <script src="./server.js"></script>
+</body>
+</html>
